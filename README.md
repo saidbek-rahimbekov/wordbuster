@@ -23,7 +23,6 @@ USAGE
                 python3 wordbuster.py --history
 
 OPTIONS
-        A summary of options is shown below.
         
         -h, --help
         	Shows summary of options.
@@ -45,17 +44,22 @@ OPTIONS
         
         --upper
           Uses upper letters set
+	  
         --lower
           Uses lower letters set
+	  
         --alpha
           Uses uppercase and lowercase letters set
+	  
         --num
           Uses digits set
+	  
         --all
           Uses all letters and numbers
         
         -p, --pass
           Gives characters you want to include only
+	  
         -v, --verbose
           Shows essential messages
           Default: on
@@ -65,12 +69,10 @@ OPTIONS
 	Note: you can't use -r, --range and -l, --length simultaneously. Also, -p, --pass with options such as --upper, --lower, --alpha, --num, or --all. However, you can mix --upper and --num.
 
 MODES
-        
-	Wordbuster can work in the following modes:
-	
+
         Brute-force
           This is the most powerful mode. Wordbuster will try any character combination.
-        
+
         No repetition
           In  this  mode, wordbuster will try to create the list using given characters once each word.
 
@@ -88,4 +90,5 @@ FILES
           is where every action is documented.
 
 AUTHOR
-        Wordbuster tool and program manual page were written by Saidbek Rahimbekov.
+
+ 	Wordbuster tool and program manual page were written by Saidbek Rahimbekov.
