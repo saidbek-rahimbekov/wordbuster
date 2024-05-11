@@ -68,6 +68,7 @@ OPTIONS
           Shows essential messages
           Default: on
 
+
 	If you write -h(--help), -V(--version), -H(--history) or -m(--manual),
  	other given arguments doesn't work. If not given any characters, then
   	Wordbuster use 26 lower letters.
@@ -79,29 +80,26 @@ OPTIONS
 MODES
 
         Brute-force
-          This is the most powerful mode. Wordbuster will try any character
-	  combination.
+          This is the most powerful mode. Wordbuster will try any character combination.
 
         No repetition
-          In  this  mode, wordbuster will try to create the list using given
-	  characters once each word.
+          In  this  mode, wordbuster will try to create the list using given characters once each word.
 
 EXAMPLES
 
         Example 1
         python3 wordbuster.py -r 1 3 --pass abcd -o passwords.txt. Wordbuster
-	will create wordlist that starts with a and ends at ddd and write all
-	of combinations to a file named passwords.txt
+        will create wordlist that starts with a and ends at ddd and write all
+        of combinations to a file named passwords.txt
 
         Example 2
         python3 wordbuster.py -l 2 --upper --num -o wordlist.txt. Wordbuster
-	will write the wordlist to a file called wordlist.txt. The file will
-	start at AA and end at 99.
+        will write the wordlist to a file called wordlist.txt. The file will
+        start at AA and end at 99.
 
 FILES
 
-        wordbuster_history.txt
-          is where every action is documented.
+        wordbuster_history.txt is where every action is documented.
 
 AUTHOR
 
