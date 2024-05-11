@@ -91,12 +91,12 @@ EXAMPLES
         Example 1
         python3 wordbuster.py -r 1 3 --pass abcd -o passwords.txt. Wordbuster
 	will create wordlist that starts with a and ends at ddd and write all
- 	of combinations to a file named passwords.txt
+	of combinations to a file named passwords.txt
 
         Example 2
         python3 wordbuster.py -l 2 --upper --num -o wordlist.txt. Wordbuster
 	will write the wordlist to a file called wordlist.txt. The file will
- 	start at AA and end at 99.
+	start at AA and end at 99.
 
 FILES
 
