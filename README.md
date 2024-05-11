@@ -35,38 +35,38 @@ OPTIONS
         	Shows version of program.
 
         -m, --manual
-          Shows manual page text
+        	Shows manual page text
 
         -H, --history
-          Shows history from wordbuster_history.txt
+        	Shows history from wordbuster_history.txt
+
+        -v, --verbose
+        	Shows essential messages
+        	Default: on
 
         -r, --range
-          Sets minimum and maximum length of word
+        	Sets minimum and maximum length of word
 
         -l, --length
-          Shortcut for --range X X
+        	Shortcut for --range X X
         
         --upper
-          Uses upper letters set
+        	Uses upper letters set
 	  
         --lower
-          Uses lower letters set
+        	Uses lower letters set
 	  
         --alpha
-          Uses uppercase and lowercase letters set
+        	Uses uppercase and lowercase letters set
 	  
         --num
-          Uses digits set
+        	Uses digits set
 	  
         --all
-          Uses all letters and numbers
+        	Uses all letters and numbers
         
         -p, --pass
-          Gives characters you want to include only
-	  
-        -v, --verbose
-          Shows essential messages
-          Default: on
+        	Gives characters you want to include only
 
 
 	If you write -h(--help), -V(--version), -H(--history) or -m(--manual),
@@ -80,10 +80,10 @@ OPTIONS
 MODES
 
         Brute-force
-          This is the most powerful mode. Wordbuster will try any character combination.
+        This is the most powerful mode. Wordbuster will try any character combination.
 
         No repetition
-          In  this  mode, wordbuster will try to create the list using given characters once each word.
+	In  this  mode, wordbuster will try to create the list using given characters once each word.
 
 EXAMPLES
 
