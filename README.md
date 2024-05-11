@@ -83,7 +83,7 @@ MODES
         This is the most powerful mode. Wordbuster will try any character combination.
 
         No repetition
-	In  this  mode, wordbuster will try to create the list using given characters once each word.
+        In  this  mode, wordbuster will try to create the list using given characters once each word.
 
 EXAMPLES
 
@@ -103,4 +103,4 @@ FILES
 
 AUTHOR
 
- 	Wordbuster tool and program manual page were written by Saidbek Rahimbekov.
+        Wordbuster tool and program manual page were written by Saidbek Rahimbekov.
