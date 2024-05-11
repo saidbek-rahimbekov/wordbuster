@@ -15,9 +15,13 @@ DESCRIPTION
 
 USAGE
 
-	To use Wordbuster, you just need to supply it a list of characters and the length of word. If length is not specified, wordbuster will create words consisting of up to 4 characters.
+	To use Wordbuster, you just need to supply it a list of characters
+ 	and the length of word. If length is not specified, wordbuster will
+  	create words consisting of up to 4 characters.
 	
- 	Once Wordbuster creates the wordlist, it will print the details of wordlist also saved into a file called ~/wordbuster_history.txt. Wordbuster will read this file when it restarts.
+ 	Once Wordbuster creates the wordlist, it will print the details of
+  	wordlist also saved into a file called ~/wordbuster_history.txt.
+   	Wordbuster will read this file when it restarts.
 	
  	To see the latest created wordlist, use
                 python3 wordbuster.py --history
@@ -64,25 +68,35 @@ OPTIONS
           Shows essential messages
           Default: on
 
-	If you write -h(--help), -V(--version), -H(--history) or -m(--manual), other given arguments doesn't work. If not given any characters, then Wordbuster use 26 lower letters.
+	If you write -h(--help), -V(--version), -H(--history) or -m(--manual),
+ 	other given arguments doesn't work. If not given any characters, then
+  	Wordbuster use 26 lower letters.
 	
-	Note: you can't use -r, --range and -l, --length simultaneously. Also, -p, --pass with options such as --upper, --lower, --alpha, --num, or --all. However, you can mix --upper and --num.
+	Note: you can't use -r, --range and -l, --length simultaneously. Also,
+ 	-p, --pass with options such as --upper, --lower, --alpha, --num, or
+  	--all. However, you can mix --upper and --num.
 
 MODES
 
         Brute-force
-          This is the most powerful mode. Wordbuster will try any character combination.
+          This is the most powerful mode. Wordbuster will try any character
+	  combination.
 
         No repetition
-          In  this  mode, wordbuster will try to create the list using given characters once each word.
+          In  this  mode, wordbuster will try to create the list using given
+	  characters once each word.
 
 EXAMPLES
 
         Example 1
-        python3 wordbuster.py -r 1 3 --pass abcd -o passwords.txt. Wordbuster will create wordlist that starts with a and ends at ddd and write all of combinations to a file named passwords.txt
+        python3 wordbuster.py -r 1 3 --pass abcd -o passwords.txt. Wordbuster
+	will create wordlist that starts with a and ends at ddd and write all
+ 	of combinations to a file named passwords.txt
 
         Example 2
-        python3 wordbuster.py -l 2 --upper --num -o wordlist.txt. Wordbuster will write the wordlist to a file called wordlist.txt. The file will start at AA and end at 99.
+        python3 wordbuster.py -l 2 --upper --num -o wordlist.txt. Wordbuster
+	will write the wordlist to a file called wordlist.txt. The file will
+ 	start at AA and end at 99.
 
 FILES
 
