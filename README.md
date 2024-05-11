@@ -15,11 +15,11 @@ DESCRIPTION
 
 USAGE
 
-	To use Wordbuster, you just need to supply it a list of characters
+        To use Wordbuster, you just need to supply it a list of characters
         and the length of word. If length is not specified, wordbuster will
         create words consisting of up to 4 characters.
-	
- 	Once Wordbuster creates the wordlist, it will print the details of
+
+        Once Wordbuster creates the wordlist, it will print the details of
         wordlist also saved into a file called ~/wordbuster_history.txt.
         Wordbuster will read this file when it restarts.
 	
