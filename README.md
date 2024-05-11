@@ -9,19 +9,19 @@ SYNOPSIS
 DESCRIPTION
 
         This page documents briefly the wordbuster command. Wordbuster
-        is a Python tool to create wordlists or dictionaries. Wordbuster
+	is a Python tool to create wordlists or dictionaries. Wordbuster
         supports different creating modes and will understand many languages,
         like Uzbek, English and Russian.
 
 USAGE
 
 	To use Wordbuster, you just need to supply it a list of characters
- 	and the length of word. If length is not specified, wordbuster will
-  	create words consisting of up to 4 characters.
+        and the length of word. If length is not specified, wordbuster will
+        create words consisting of up to 4 characters.
 	
  	Once Wordbuster creates the wordlist, it will print the details of
-  	wordlist also saved into a file called ~/wordbuster_history.txt.
-   	Wordbuster will read this file when it restarts.
+        wordlist also saved into a file called ~/wordbuster_history.txt.
+        Wordbuster will read this file when it restarts.
 	
  	To see the latest created wordlist, use
                 python3 wordbuster.py --history
