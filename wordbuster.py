@@ -12,7 +12,7 @@ from itertools import product
 from datetime import datetime
 
 
-version = "1.0.0"
+version = "1.0.1"
 input_chars = ""
 permutations_list = []
 arguments = []
