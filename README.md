@@ -9,7 +9,7 @@ SYNOPSIS
 DESCRIPTION
 
         This page documents briefly the wordbuster command. Wordbuster
-	is a Python tool to create wordlists or dictionaries. Wordbuster
+        is a Python tool to create wordlists or dictionaries. Wordbuster
         supports different creating modes and will understand many languages,
         like Uzbek, English and Russian.
 
