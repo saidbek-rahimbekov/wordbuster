@@ -69,13 +69,13 @@ OPTIONS
         	Gives characters you want to include only
 
 
-	If you write -h(--help), -V(--version), -H(--history) or -m(--manual),
- 	other given arguments doesn't work. If not given any characters, then
-  	Wordbuster use 26 lower letters.
+        If you write -h(--help), -V(--version), -H(--history) or -m(--manual),
+        other given arguments doesn't work. If not given any characters, then
+        Wordbuster use 26 lower letters.
 	
-	Note: you can't use -r, --range and -l, --length simultaneously. Also,
- 	-p, --pass with options such as --upper, --lower, --alpha, --num, or
-  	--all. However, you can mix --upper and --num.
+        Note: you can't use -r, --range and -l, --length simultaneously. Also,
+        -p, --pass with options such as --upper, --lower, --alpha, --num, or
+        --all. However, you can mix --upper and --num.
 
 MODES
 
