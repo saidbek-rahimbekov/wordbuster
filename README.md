@@ -22,8 +22,8 @@ USAGE
         Once Wordbuster creates the wordlist, it will print the details of
         wordlist also saved into a file called ~/wordbuster_history.txt.
         Wordbuster will read this file when it restarts.
-	
- 	To see the latest created wordlist, use
+
+        To see the latest created wordlist, use
                 python3 wordbuster.py --history
 
 OPTIONS
