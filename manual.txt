@@ -51,6 +51,9 @@ OPTIONS
 	--lower
 		Uses lower letters set
 
+	--alpha
+		Uses uppercase and lowercase letters set
+
 	--num
 		Uses digits set
 
@@ -69,7 +72,7 @@ OPTIONS
 	given any characters, then Wordbuster use 26 lower letters.
 	
 	Note: you can't use -r, --range and -l, --length simultaneously.
-	Also, -p, --pass with options such as --upper, --lower,
+	Also, -p, --pass with options such as --upper, --lower, --alpha,
 	--num, or --all. However, you can mix --upper and --num.
 
 MODES
